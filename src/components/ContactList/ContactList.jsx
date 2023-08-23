@@ -6,7 +6,6 @@ const ContactList = () => {
   const { contacts } = useSelector(state => state);
   const filterValue = useSelector(state => state.filter.filter);
 
-  console.log(filterValue);
   const dispatch = useDispatch();
 
   const handleDelete = e => {
